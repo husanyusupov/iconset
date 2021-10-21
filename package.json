@@ -1,0 +1,29 @@
+{
+  "name": "iconset",
+  "version": "1.0.0",
+  "description": "creates svg sprite",
+  "main": "./bin/index.js",
+  "bin": {
+    "iconset": "index.js",
+    "hello": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/husanyusupov/iconset.git"
+  },
+  "keywords": [
+    "svg",
+    "icon",
+    "svg-sprite",
+    "svg-icon"
+  ],
+  "author": "Khusan Yusupov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/husanyusupov/iconset/issues"
+  },
+  "homepage": "https://github.com/husanyusupov/iconset#readme"
+}
