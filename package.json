@@ -4,11 +4,11 @@
   "description": "creates svg sprite",
   "main": "./bin/index.js",
   "bin": {
-    "iconset": "index.js",
-    "hello": "./bin/index.js"
+    "iconset": "./bin/index.js"
   },
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./bin/index.js --dir=./test/icons --out=./test/icons-result"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/husanyusupov/iconset/issues"
   },
-  "homepage": "https://github.com/husanyusupov/iconset#readme"
+  "homepage": "https://github.com/husanyusupov/iconset#readme",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^4.1.2"
+  },
+  "engines" : { "node" : ">=13" }
 }
