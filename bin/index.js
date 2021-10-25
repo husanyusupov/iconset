@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-import chalk from 'chalk';
-import {getArgs} from '../lib/utils.js';
-import run from '../lib/run.js';
+const chalk = require('chalk');
+const utils = require('../lib/utils.js');
+const run = require('../lib/run.js');
 
-const args = getArgs(process.argv.slice(2));
+const args = utils.getArgs(process.argv.slice(2));
 const calledEmpty = Object.keys(args).length === 0;
 const wrongArguments = !args.dir || args.dir === true || !args.out || args.out === true;
 
