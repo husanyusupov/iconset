@@ -1,4 +1,4 @@
-type Icon = 
+type TIcon = 
 "large-media-laptop"|
 "large-media-phone-horizontal"|
 "large-media-phone"|
@@ -52,4 +52,4 @@ type Icon =
 "small-arrows-line-up"|
 "small-check-mark";
 
-export default Icon;
+export default TIcon;
